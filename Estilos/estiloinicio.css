@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:ital,wght@1,700&display=swap');
+
+body {
+    margin: 1px;
+    padding: 1px;
+    background: rgba(32,160,217,1);
+    background: linear-gradient(90deg, rgba(103,58,183,1) 25%, rgba(32,160,217,1) 95%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;font-family: 'Open Sans', sans-serif;
+
+}
+
+#barralateral {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 80px;
+    height: 100%;
+    background: #151f25;
+}
+
+#barrasuperior {
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #151f25;
+}
+
+#elementos {
+    margin-top: 55px;
+}
+
+#barralateral ul li {
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 25px 5px;
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
+}
+
+.icono {
+    width: 31px;
+    position: relative;
+}
+
+#barrasuperior #busqueda {
+    width: 35%;
+    padding: 5px 5px;
+    position: relative;
+    left: 81px;
+    top: 9px;
+}
+
+
+
+
+#contenedor {
+    width: 1050px;
+    height: 680px;
+    position: relative;
+    margin: 100px 210px;
+    background: seashell;
+    z-index: -1;
+}
+
+#principal {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background: sienna;
+}
+
+#imagen {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+    background: springgreen;
+}
+
+#compartir {
+    position: relative;
+    width: 73%;
+    height: 100%;
+    float: right;
+    background: tan;
+}
+
+#users {
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+    background: lightseagreen;
+}
+
+#imgn {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+    background: rgb(30, 11, 202);
+}
+
+#comentarios {
+    position: relative;
+    width: 73%;
+    height: 100%;
+    float: right;
+    background: maroon;
+}
+
+#comentarios #contenido {
+    width: 100%;
+    height: 75%;
+    position: relative;
+    background: olive;
+}
+
+#comentarios #informacion {
+    width: 100%;
+    height: 25%;
+    position: relative;
+    background:orangered;
+}
