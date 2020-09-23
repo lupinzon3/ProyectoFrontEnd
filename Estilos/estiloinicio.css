@@ -31,6 +31,7 @@ body {
     width: 100%;
     height: 50px;
     background: #151f25;
+    z-index: 1;
 }
 
 #elementos {
@@ -68,7 +69,6 @@ body {
     position: relative;
     margin: 100px 210px;
     background: seashell;
-    z-index: -1;
 }
 
 #principal {
@@ -92,6 +92,20 @@ body {
     height: 100%;
     float: right;
     background: tan;
+}
+
+#compartir textarea {
+    border-radius: 1em;
+    resize: none;
+    position: relative;
+    margin: 15px;
+}
+
+#aceptar {
+    width: 35%;
+    height: 100%;
+    float: right;
+    background: seagreen;
 }
 
 #users {
@@ -128,5 +142,14 @@ body {
     width: 100%;
     height: 25%;
     position: relative;
-    background:orangered;
+    background: darkred;
 }
+
+.imgperfil {
+    
+    position: relative;
+    border-radius: 50%;
+    float: right;
+    top: 18px;
+}
+
