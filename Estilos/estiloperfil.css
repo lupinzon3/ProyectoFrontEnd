@@ -31,6 +31,7 @@ body {
     width: 100%;
     height: 50px;
     background: #151f25;
+    z-index: 1;
 }
 
 #elementos {
@@ -57,4 +58,103 @@ body {
     position: relative;
     left: 81px;
     top: 9px;
+}
+
+
+
+
+#contenedor {
+    width: 35%;
+    height: 680px;
+    background: #f5f5f5;
+    margin-top: 6%;
+    margin-left: 37%;
+    border-radius: 1em;
+    -webkit-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
+}
+
+#cabecera {
+    width: 100%;
+    height: 30%;
+}
+
+#imagen {
+    width: 100%;
+    height: 65%;
+}
+
+#imagen .perfil {
+    width: 125px;
+    position: relative;
+    left: 38%;
+    border-radius: 50%;
+    top: 4px;
+}
+
+.boton {
+    position: relative;
+    width: 35%;
+    background: #616161;
+    border-radius: 1em;
+    padding: 6px;
+    color: black;
+    font-size: 15px;
+    border: none;
+    margin-left: 33%;
+    margin-top: 4%;
+    font-family: 'Open Sans', sans-serif;font-family: 'Open Sans', sans-serif;
+}
+
+#informacion h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+#informacion ul li img {
+    width: 35px;
+    position: relative;
+    float: left;
+    left: 30px;
+}
+
+#informacion ul li h2 { 
+    font-size: 18px;
+    color: darkred;
+    position: relative;
+    float: left;
+    left: 45px;
+    top: 11px;
+}
+
+#informacion ul li p {
+    font-size: 14px;
+    color: black;
+    position: relative;
+    float: left;
+    left: 60px;
+    top: 15px;
+}
+
+#informacion ul li {
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 23px 1px;
+}
+
+#edicion {
+    width: 100%;
+    height: 10%;
+    position: relative;
+    top: 50px;
+}
+
+#edicion img {
+    width: 48px;
+    position: relative;
+    left: 30%;
 }
