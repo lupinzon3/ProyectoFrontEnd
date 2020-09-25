@@ -22,6 +22,7 @@ body {
     width: 80px;
     height: 100%;
     background: #151f25;
+    z-index: 1;
 }
 
 #barrasuperior {
@@ -61,12 +62,19 @@ body {
 }
 
 
-#titulo {
-    width: 50%;
-    height: 220px;
-    position: relative;
+#contenedorsup {
+    width: 1125px;
+    height: 200px;
     margin-top: 50px;
     margin-left: 180px;
+}
+
+#titulo {
+    width: 700px;
+    height: 200px;
+    position: relative;
+    float: left;
+
 }
 
 #titulo h1 {
@@ -84,11 +92,10 @@ body {
 }
 
 #subir {
-    width: 25%;
+    width: 350px;
     height: 120px;
     position: relative;
-    bottom: 180px;
-    right: 108px;
+    margin: 25px;
     float: right;
     padding: 10px;
     border-radius: 1em;
@@ -112,8 +119,8 @@ body {
 }
 
 #contenido {
-    width: 78%;
-    height: 480px;
+    width: 1125px;
+    height: auto;
     position: relative;
     top: 20px;
     left: 180px;
@@ -126,6 +133,7 @@ body {
 }
 
 #contenido img {
+    position: relative;
     padding: 16px 80px;
     width: 16%;
 }

@@ -22,6 +22,7 @@ body {
     width: 80px;
     height: 100%;
     background: #151f25;
+    z-index: 1;
 }
 
 #barrasuperior {
@@ -64,9 +65,10 @@ body {
 
 
 #contenedor {
-    width: 35%;
+    width: 500px;
     height: 680px;
     background: #f5f5f5;
+    position: relative;
     margin-top: 6%;
     margin-left: 37%;
     border-radius: 1em;
