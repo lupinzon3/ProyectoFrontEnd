@@ -119,21 +119,32 @@ body {
 }
 
 #contenido {
-    width: 1125px;
+    width: 1200px;
     height: auto;
     position: relative;
     top: 20px;
     left: 180px;
-    background: grey;
-    opacity: 50%;
-    border-radius: 1em;
-    -webkit-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
+}
+
+#imagenes {
+    width: 30%;
+    margin: 10px;
+    height: 200px;
+    float: left;
+}
+
+#foto {
+    text-align: center;
 }
 
 #contenido img {
+    width: 160px;
     position: relative;
-    padding: 16px 80px;
-    width: 16%;
+}
+
+#boton input{
+    margin-top: 1px;
+    position: relative;
+    width: 50%;
+    left: 25%;
 }
