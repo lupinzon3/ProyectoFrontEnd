@@ -85,6 +85,13 @@ body {
     right: 50px;
 }
 
+
+#contenedorPrincipal {
+    width: 1400px;
+    height: auto;
+}
+
+
 #escribirms {
     width: 550px;
     height: 220px;
@@ -107,6 +114,7 @@ body {
     padding: 5px;
     border-radius: 1em;
     margin-bottom: 13px;
+    float: left;
     -webkit-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
