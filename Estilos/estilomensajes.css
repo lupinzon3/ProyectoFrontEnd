@@ -84,3 +84,122 @@ body {
     position: relative;
     right: 50px;
 }
+
+#escribirms {
+    width: 550px;
+    height: 220px;
+    margin-left: 200px;
+    position: relative;
+    padding: 15px;
+}
+
+#seleccionar {
+    margin-bottom: 40px;
+}
+
+#seleccionar select {
+    width: 100%;
+}
+
+#mensaj textarea {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    border-radius: 1em;
+    margin-bottom: 13px;
+    -webkit-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
+}
+
+#aceptar{
+    text-align: center;
+}
+
+#mensaj input {
+    width: 25%;
+    border-radius: 1em;
+}
+
+#contenedormensajes {
+    width: 500px;
+    height: auto;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    bottom: 220px;
+    background: #f5f5f5;
+    border-radius: 1em;
+    padding: 5px;
+    -webkit-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.75);
+}
+
+#users {
+    margin-top: 15px;
+    position: relative;
+    width: 100%;
+    height: 140px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 1em;
+}
+
+#imagenes {
+    width: 23%;
+    height: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+#imagenes  img{
+    width: 110px;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+}
+
+#contenido {
+    position: relative;
+    width: 70%;
+    margin: 15px;
+    float: left;
+}
+
+#contenido textarea {
+    position: relative;
+    width: 100%;
+    border-radius: 1em;
+    padding: 5px;
+    resize: none;
+    background: #212121;
+    color: white;
+}
+
+#informacion {
+    position: relative;
+    width: 70%;
+    float: left;
+    left: 25px;
+}
+
+#informacion img {
+    position: relative;
+    width: 30px;
+    float: left;
+}
+
+#informacion p {
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+
+#sec2 {
+    position: relative;
+    float: right;
+    bottom: 15px;
+}
+
