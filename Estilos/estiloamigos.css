@@ -3,8 +3,7 @@
 body {
     margin: 1px;
     padding: 1px;
-    background: rgba(32,160,217,1);
-    background: linear-gradient(90deg, rgba(103,58,183,1) 25%, rgba(32,160,217,1) 95%);
+    background: red;
 }
 
 *{
